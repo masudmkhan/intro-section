@@ -1,0 +1,49 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(0, 0%, 41%);
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    margin: 12px 25px;
+    padding: 5PX;
+}
+
+.nav-types {
+    display: flex;
+}
+
+.navbar-categories {
+    margin: 12px 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.login-section {
+    display: flex;
+    margin: 7px 15px;
+}
+
+.login{
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.register{
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 18px;
+    padding: 15px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
