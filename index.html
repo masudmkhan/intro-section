@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
+    <!-- Link Bootstrap -->
 </head>
 
 <body>
@@ -23,8 +24,8 @@
                 <img src="images/logo.svg" alt="">
             </div>
             <div class="nav-types">
-                <div class="navbar-categories">Features <img src="images/icon-arrow-down.svg" alt=""></div>
-                <div class="navbar-categories">Company <img src="images/icon-arrow-down.svg" alt=""></div>
+                <div class="navbar-categories" onclick="toggleFeature()">Features <span id="feature-display" class=""><img src="images/icon-arrow-down.svg" alt=""></span></div>
+                <div class="navbar-categories" onclick="toggleCompany()">Company <span id="company-display" class=""><img src="images/icon-arrow-down.svg" alt=""></span></div>
                 <div class="navbar-categories">Careers</div>
                 <div class="navbar-categories">About</div>
             </div>
@@ -43,7 +44,7 @@
             </h1>
             <p class="topic-details">
                 Get your team in sync, no matter your location. Streamline Processes, create team rituals, and watch
-                productivity sour.
+                productivity soar.
             </p>
             <button class="btn-learn-more">Learn More</button>
             <div class="sponsors">
@@ -60,6 +61,7 @@
     <footer>
 
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

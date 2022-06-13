@@ -34,6 +34,10 @@ body {
     font-weight: bold;
 }
 
+.features::after{
+    background-image: url("images/icon-arrow-down.svg");
+}
+
 .login-section {
     display: flex;
     margin: 7px 15px;
